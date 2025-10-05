@@ -1,6 +1,11 @@
 import React from 'react'
 import TradingViewWidget from "@/components/TradingViewWidget";
-import {HEATMAP_WIDGET_CONFIG, MARKET_DATA_WIDGET_CONFIG, TOP_STORIES_WIDGET_CONFIG} from "@/lib/constants";
+import {
+    HEATMAP_WIDGET_CONFIG,
+    MARKET_DATA_WIDGET_CONFIG,
+    MARKET_OVERVIEW_WIDGET_CONFIG,
+    TOP_STORIES_WIDGET_CONFIG
+} from "@/lib/constants";
 
 const Home = () => {
 
@@ -12,7 +17,7 @@ const Home = () => {
                     <TradingViewWidget
                         title={"Market Overview"}
                         scriptUrl= { scriptUrl + "market-overview.js"}
-                        config={MARKET_DATA_WIDGET_CONFIG}
+                        config={MARKET_OVERVIEW_WIDGET_CONFIG}
                         className="custom-chart"
                         height={600}
                     />

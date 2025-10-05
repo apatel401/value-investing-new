@@ -3,7 +3,7 @@ import React, { memo } from 'react';
 import {useTradingViewWidget} from "@/hooks/useTradingViewWidget";
 import {cn} from "@/lib/utils";
 
-interface TradingViewWidget {
+interface TradingViewWidgetProp {
     title?: string;
     scriptUrl: string;
     config: Record<string,unknown>;
