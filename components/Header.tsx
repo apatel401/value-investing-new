@@ -9,7 +9,7 @@ const Header = () => {
         <header className="sticky top-0 header">
             <div className="container flex justify-between items-center px-6 py-4 text-gray-500">
                 <Link href={"/"}>
-                    <Image src="/public/assets/icons/logo.svg" alt="value investing" width={140} height={70} />
+                    <Image src="/assets/icons/logo.svg" alt="value investing" width={140} height={70} />
                 </Link>
                 {/* Nav items*/}
                 <nav className="hidden sm:block">
